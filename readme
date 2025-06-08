@@ -1,0 +1,5 @@
+Este proyecto consiste en una aplicación de gestión académica desarrollada en Java. Permite realizar operaciones CRUD (crear, leer, actualizar y eliminar) sobre tres entidades principales: alumnos, cursos y matrículas. El sistema soporta dos modos de persistencia de datos: usando JDBC directamente o mediante JPA con EclipseLink, seleccionables mediante un archivo de configuración.
+
+La aplicación está organizada en capas que separan la lógica de acceso a datos del resto del código. Las clases DAO implementan interfaces comunes para ambos métodos de persistencia. Se incluyen utilidades para insertar y borrar datos de prueba, así como manejo de imágenes para los alumnos (almacenadas en la base de datos como BLOB).
+
+Tecnologías utilizadas: Java 21, JDBC, JPA (Jakarta Persistence API), EclipseLink, MySQL, Maven y Eclipse IDE.
